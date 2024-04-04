@@ -39,7 +39,7 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
 
-  packages/openinference-instrumentation:
+  packages/openinference-core:
     dependencies:
       '@opentelemetry/instrumentation':
         specifier: ^0.46.0
