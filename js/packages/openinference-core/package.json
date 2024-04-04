@@ -1,12 +1,12 @@
 {
-  "name": "@arizeai/openinference-instrumentation",
+  "name": "@arizeai/openinference-core",
   "version": "0.0.1",
   "private": false,
   "main": "dist/src/index.js",
   "module": "dist/esm/index.js",
   "esnext": "dist/esnext/index.js",
   "types": "dist/src/index.d.ts",
-  "description": "This package provides OpenInference instrumentation utilities",
+  "description": "OpenInference Core provides constants and utilities shared by all OpenTelemetry SDK packages.",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc --build tsconfig.json tsconfig.esm.json tsconfig.esnext.json",
@@ -24,7 +24,7 @@
   ],
   "author": "oss-devs@arize.com",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/arize-ai/openinference/tree/main/js/packages/openinference-instrumentation",
+  "homepage": "https://github.com/arize-ai/openinference/tree/main/js/packages/openinference-core",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Arize-ai/openinference.git"
