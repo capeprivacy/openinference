@@ -46,6 +46,9 @@ test = [
   "numpy",
 ]
 
+[project.entry-points.opentelemetry_instrumentor]
+openai = "openinference.instrumentation.openai:OpenAIInstrumentor"
+
 [project.urls]
 Homepage = "https://github.com/Arize-ai/openinference/tree/main/python/instrumentation/openinference-instrumentation-openai"
 
